@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="" />
+    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/baseline/homePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/diffimages/homePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/logoImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/myImage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/srcHomePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +29,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1281" />
+          <entry key="java" value="1546" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1281" />
+          <entry key="JAVA" value="1546" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -34,13 +43,13 @@
         <counts>
           <entry key="iml" value="1" />
           <entry key="java" value="3" />
-          <entry key="png" value="16" />
+          <entry key="png" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="16" />
+          <entry key="Image" value="20" />
           <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
@@ -60,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="211">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,15 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="-59">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +98,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,11 +120,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="104" />
-    <option name="y" value="198" />
+    <option name="x" value="86" />
+    <option name="y" value="197" />
     <option name="width" value="1336" />
     <option name="height" value="663" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -149,20 +157,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="baseline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VisualRegression" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="diffimages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VisualRegression" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest">
+  <component name="RunManager" selected="TestNG.FirstTest.prepareBaseline">
     <configuration name="FirstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VisualRegression" />
       <option name="PACKAGE_NAME" value="" />
@@ -256,6 +250,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest.prepareBaseline" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VisualRegression" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="prepareBaseline" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VisualRegression" />
       <option name="PACKAGE_NAME" value="" />
@@ -268,32 +274,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VisualRegression" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.FirstTest.test2" />
       <item itemvalue="TestNG.FirstTest.compareImages" />
       <item itemvalue="TestNG.FirstTest.test1" />
       <item itemvalue="TestNG.FirstTest" />
       <item itemvalue="TestNG.FirstTest.compareImagesToFail" />
+      <item itemvalue="TestNG.FirstTest.prepareBaseline" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest.prepareBaseline" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.FirstTest.compareImagesToFail" />
         <item itemvalue="TestNG.FirstTest.compareImages" />
         <item itemvalue="TestNG.FirstTest.test1" />
-        <item itemvalue="TestNG.FirstTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -311,9 +305,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_test1 - 2018.11.27 at 14h 29m 17s.xml">
-      <configuration name="FirstTest.test1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest_compareImages - 2018.11.27 at 14h 33m 45s.xml">
       <configuration name="FirstTest.compareImages" configurationId="TestNG" />
     </history-entry>
@@ -341,15 +332,19 @@
     <history-entry file="FirstTest - 2018.11.27 at 15h 02m 47s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FirstTest_prepareBaseline - 2018.11.27 at 16h 41m 12s.xml">
+      <configuration name="FirstTest.prepareBaseline" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="198" width="1336" height="663" extended-state="1" />
+    <frame x="86" y="197" width="1336" height="663" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26197836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26197836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -357,7 +352,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3257443" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33975482" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33975482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,32 +410,41 @@
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/logoImage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/myImage1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/srcHomePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/diffimages/homePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/baseline/purchasePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="211">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

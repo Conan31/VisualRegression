@@ -52,6 +52,21 @@ public class ScreenCaptureUtility
         } catch (IOException e) {}
 
     }
+
+    public void prepareBaseline(WebDriver driver, String name)
+    {
+        Screenshot screen = new AShot().takeScreenshot(driver);
+        BufferedImage bi = screen.getImage();
+
+        File file;
+        file = new File(System.getProperty("user.dir")+"/src/images/baseline/" + name + ".png");
+        try
+        {
+            ImageIO.write(bi,"png", file);
+        } catch (IOException e) {}
+
+    }
+
     public void takeElementScreenshot(WebDriver driver, String name, WebElement element) {
 
         Screenshot screen = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, element);
