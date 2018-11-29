@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -67,8 +68,9 @@ public class Regression {
     }
 
     @Test(dataProvider = "urls")
-    public void regression(String url, String name, Method method)
+    public void regression(String url, String name, Method method, ITestContext context)
     {
+        context.getCurrentXmlTest().addParameter("image", name);
         test = report.startTest(method.getName() + " || " + url);
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -80,8 +82,9 @@ public class Regression {
     }
 
     @AfterMethod
-    public void afterMethod(ITestResult result)
+    public void afterMethod(ITestResult result, ITestContext context)
     {
+        String image = context.getCurrentXmlTest().getParameter("image");
         if(result.getStatus()==ITestResult.SUCCESS)
         {
             test.log(LogStatus.PASS,"Test passed");
@@ -89,7 +92,8 @@ public class Regression {
 
         if(result.getStatus()==ITestResult.FAILURE)
         {
-            test.log(LogStatus.FAIL,"Test failed");
+            String diff = test.addScreenCapture("../src/images/diffimages/" + image + ".png");
+            test.log(LogStatus.FAIL,"Test failed", "screenshot: \n" + diff);
             //test.log(LogStatus.FAIL), result.getThrowable();
         }
 

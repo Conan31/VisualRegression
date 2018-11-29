@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/diffimages/homePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/diffimages/purchasePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/homePage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/homePage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/purchasePage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/purchasePage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/reservationPage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/reservationPage2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Regression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="271">
+              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +99,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="31" />
-    <option name="y" value="85" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="104" />
+    <option name="y" value="45" />
     <option name="width" value="1336" />
-    <option name="height" value="738" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -289,12 +298,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.11.29 at 11h 51m 37s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Regression - 2018.11.29 at 11h 54m 14s.xml">
-      <configuration name="Regression" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Regression_(2) - 2018.11.29 at 12h 44m 41s.xml">
       <configuration name="Regression (2)" configurationId="TestNG" />
     </history-entry>
@@ -319,10 +322,15 @@
     <history-entry file="Regression_(1) - 2018.11.29 at 14h 01m 28s.xml">
       <configuration name="Regression (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Regression_(1) - 2018.11.29 at 14h 20m 58s.xml">
+      <configuration name="Regression (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Regression_(1) - 2018.11.29 at 14h 40m 55s.xml">
+      <configuration name="Regression (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="85" width="1336" height="738" extended-state="0" />
-    <editor active="true" />
+    <frame x="104" y="45" width="1336" height="758" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27357033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +340,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28947368" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2987988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +348,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.39628482" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3948949" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,9 +401,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/reservationPage2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/screenshots/homePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/report/Report.html">
@@ -452,10 +457,13 @@
     <entry file="file://$PROJECT_DIR$/src/images/diffimages/reservationPage2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/screenshots/homePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="271">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
