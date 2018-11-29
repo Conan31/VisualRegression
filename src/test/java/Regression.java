@@ -39,11 +39,6 @@ public class Regression {
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        try
-        {
-            Thread.sleep(3000);
-        } catch (InterruptedException e){}
-
         driver.findElement(By.name("userName")).sendKeys("tutorial");
         driver.findElement(By.name("password")).sendKeys("tutorial");
         driver.findElement(By.name("login")).click();

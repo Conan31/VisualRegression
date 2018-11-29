@@ -5,6 +5,7 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -53,9 +54,23 @@ public class ScreenCaptureUtility
 
     }
 
+    public void takePageScreenshotImproved(WebDriver driver, String name)
+    {
+        Screenshot screen = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+        BufferedImage bi = screen.getImage();
+
+        File file;
+        file = new File(System.getProperty("user.dir")+"/src/images/screenshots/" + name + ".png");
+        try
+        {
+            ImageIO.write(bi,"png", file);
+        } catch (IOException e) {}
+
+    }
+
     public void prepareBaseline(WebDriver driver, String name)
     {
-        Screenshot screen = new AShot().takeScreenshot(driver);
+        Screenshot screen = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
         BufferedImage bi = screen.getImage();
 
         File file;
