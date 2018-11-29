@@ -51,7 +51,7 @@ public class Regression {
     @BeforeMethod
     public void beforeMethod(Method method)
     {
-        test = report.startTest(method.getName());
+        //test = report.startTest(method.getName());
     }
 
     @DataProvider(name="urls")
@@ -67,8 +67,9 @@ public class Regression {
     }
 
     @Test(dataProvider = "urls")
-    public void regression(String url, String name)
+    public void regression(String url, String name, Method method)
     {
+        test = report.startTest(method.getName() + " || " + url);
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         driver.manage().window().maximize();

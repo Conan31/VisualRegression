@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/baseline/homePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/baseline/purchasePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/baseline/reservationPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/baseline/reservationPage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/homePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/purchasePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/homePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/logoImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/myImage1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/purchasePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/srcHomePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Regression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+            <state relative-caret-position="1072">
+              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,9 +90,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="74" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="31" />
+    <option name="y" value="85" />
     <option name="width" value="1336" />
     <option name="height" value="738" />
   </component>
@@ -127,6 +111,11 @@
             <path>
               <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
               <item name="VisualRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VisualRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VisualRegression" type="b2602c69:ProjectViewProjectNode" />
@@ -300,9 +289,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Regression - 2018.11.29 at 11h 45m 37s.xml">
-      <configuration name="Regression" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest - 2018.11.29 at 11h 51m 37s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
@@ -330,9 +316,13 @@
     <history-entry file="FirstTest - 2018.11.29 at 13h 59m 48s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Regression_(1) - 2018.11.29 at 14h 01m 28s.xml">
+      <configuration name="Regression (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="74" width="1336" height="738" extended-state="0" />
+    <frame x="31" y="85" width="1336" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27357033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,9 +398,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/homePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/diffimages/purchasePage.png" />
-    <entry file="file://$PROJECT_DIR$/src/images/diffimages/reservationPage.png" />
-    <entry file="file://$PROJECT_DIR$/src/images/diffimages/reservationPage2.png" />
     <entry file="file://$PROJECT_DIR$/report/Report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -456,10 +443,19 @@
     <entry file="file://$PROJECT_DIR$/src/images/diffimages/homePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/diffimages/purchasePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/diffimages/reservationPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/diffimages/reservationPage2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        <state relative-caret-position="1072">
+          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
