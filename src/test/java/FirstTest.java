@@ -28,6 +28,8 @@ public class FirstTest {
     {
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         driver.findElement(By.name("userName")).sendKeys("tutorial");
         driver.findElement(By.name("password")).sendKeys("tutorial");
@@ -40,10 +42,11 @@ public class FirstTest {
     @Test
     public void compareImages()
     {
-
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         try
         {
             Thread.sleep(3000);
@@ -56,10 +59,11 @@ public class FirstTest {
     @Test
     public void compareImagesToFail()
     {
-
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         try
         {
             Thread.sleep(3000);
@@ -73,9 +77,11 @@ public class FirstTest {
     @Test
     public void test1()
     {
-
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         new ScreenCaptureUtility().takePageScreenshot(driver, "myImage1");
         driver.close();
@@ -84,13 +90,15 @@ public class FirstTest {
     @Test
     public void test2()
     {
-
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
-
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         WebElement logo = driver.findElement(By.xpath("//img[@alt='Mercury Tours']"));
 
         new ScreenCaptureUtility().takeElementScreenshot(driver, "logoImage", logo);
+        
         driver.close();
         driver.quit();
     }

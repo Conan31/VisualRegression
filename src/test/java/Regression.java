@@ -1,11 +1,13 @@
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.io.File;
@@ -30,8 +32,11 @@ public class Regression {
             e.printStackTrace();
         }
 
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://newtours.demoaut.com/");
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         try
         {
@@ -65,10 +70,32 @@ public class Regression {
     public void regression(String url, String name)
     {
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         new ScreenCaptureUtility().takePageScreenshot(driver, name);
         Assert.assertTrue(new ScreenCaptureUtility().areImageEqual(name, name));
 
+    }
+
+    @AfterMethod
+    public void afterMethod(ITestResult result)
+    {
+        if(result.getStatus()==ITestResult.SUCCESS)
+        {
+            test.log(LogStatus.PASS,"Test passed");
+        }
+
+        if(result.getStatus()==ITestResult.FAILURE)
+        {
+            test.log(LogStatus.FAIL,"Test failed");
+            //test.log(LogStatus.FAIL), result.getThrowable();
+        }
+
+        if(result.getStatus()==ITestResult.SKIP)
+        {
+            test.log(LogStatus.SKIP,"Test skipped");
+        }
     }
 
     @AfterClass
