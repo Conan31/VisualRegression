@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/homePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/purchasePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/homePage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/homePage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/purchasePage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/purchasePage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/reservationPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/reservationPage2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/reservationPage2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,14 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+            <state relative-caret-position="361">
+              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Regression.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -89,6 +86,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Regression.java" />
+        <option value="$PROJECT_DIR$/Regression.xml" />
       </list>
     </option>
   </component>
@@ -103,7 +101,7 @@
     <option name="x" value="104" />
     <option name="y" value="45" />
     <option name="width" value="1336" />
-    <option name="height" value="758" />
+    <option name="height" value="624" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -216,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Regression (1)">
+  <component name="RunManager" selected="TestNG./Users/alexam/Documents/GitHub/VisualRegression/Regression.xml">
     <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VisualRegression" />
       <option name="PACKAGE_NAME" value="" />
@@ -228,16 +226,6 @@
       </method>
     </configuration>
     <configuration name="Regression (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VisualRegression" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Regression" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Regression (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VisualRegression" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Regression" />
@@ -267,20 +255,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/alexam/Documents/GitHub/VisualRegression/Regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VisualRegression" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.FirstTest" />
       <item itemvalue="TestNG.Regression (1)" />
-      <item itemvalue="TestNG.Regression (2)" />
       <item itemvalue="TestNG.Regression (3)" />
       <item itemvalue="TestNG.Regression" />
+      <item itemvalue="TestNG./Users/alexam/Documents/GitHub/VisualRegression/Regression.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/alexam/Documents/GitHub/VisualRegression/Regression.xml" />
         <item itemvalue="TestNG.Regression (1)" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.Regression (3)" />
         <item itemvalue="TestNG.Regression" />
-        <item itemvalue="TestNG.Regression (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +328,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="45" width="1336" height="758" extended-state="0" />
+    <frame x="104" y="45" width="1336" height="758" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27357033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,11 +461,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Regression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="361">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
