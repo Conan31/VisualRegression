@@ -98,7 +98,7 @@ public class FirstTest {
         WebElement logo = driver.findElement(By.xpath("//img[@alt='Mercury Tours']"));
 
         new ScreenCaptureUtility().takeElementScreenshot(driver, "logoImage", logo);
-        
+
         driver.close();
         driver.quit();
     }
