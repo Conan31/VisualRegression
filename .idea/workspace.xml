@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/homePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/purchasePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/diffimages/reservationPage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a6db842-a354-4d1b-8265-1994d55d47a5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="200">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,24 +25,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage.png">
+        <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="42" />
+            <state relative-caret-position="46">
+              <caret line="56" column="42" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,15 +54,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regression.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,9 +95,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="139" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="76" />
+    <option name="y" value="301" />
     <option name="width" value="1375" />
     <option name="height" value="732" />
   </component>
@@ -314,9 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.11.29 at 13h 51m 47s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest - 2018.11.29 at 13h 59m 48s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
@@ -344,9 +318,12 @@
     <history-entry file="FirstTest_prepareBaseline - 2018.11.29 at 17h 23m 04s.xml">
       <configuration name="FirstTest.prepareBaseline" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FirstTest - 2018.11.29 at 17h 28m 23s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="139" width="1375" height="732" extended-state="0" />
+    <frame x="76" y="301" width="1375" height="732" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26556638" />
@@ -426,9 +403,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/homePage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -445,9 +419,6 @@
           <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/diffimages/homePage.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/diffimages/purchasePage.png">
       <provider selected="true" editor-type-id="images" />
@@ -474,6 +445,9 @@
     <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/baseline/homePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/baseline/homePageImpr.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -486,20 +460,23 @@
     <entry file="file://$PROJECT_DIR$/src/images/baseline/reservationPageImpr.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/images/diffimages/homePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="42" />
+        <state relative-caret-position="200">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenCaptureUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="46">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
